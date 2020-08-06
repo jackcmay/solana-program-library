@@ -1395,9 +1395,9 @@ dependencies = [
 
 [[package]]
 name = "solana-crate-features"
-version = "1.2.17"
+version = "1.2.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "610ba71932d0bf4abf88eabb081ee43fa1ee6bb5137c4fa6776ea9dd8630ca5c"
+checksum = "5154b4cf413c6613cdb9eacddfb3a582015b780248bef4f2e5b5beae12077fcd"
 dependencies = [
  "backtrace",
  "bytes 0.4.12",
@@ -1420,9 +1420,9 @@ dependencies = [
 
 [[package]]
 name = "solana-logger"
-version = "1.2.17"
+version = "1.2.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bc703cb2807e9d713f70df32ac8c3a7a9c8af437dd0d468b1b77cfd8e8b4cbc8"
+checksum = "6d342893d4a81a58bb7bb88b976d4cc6e479946bdda746ae4c3dfed8debc207e"
 dependencies = [
  "env_logger",
  "lazy_static",
@@ -1431,9 +1431,9 @@ dependencies = [
 
 [[package]]
 name = "solana-sdk"
-version = "1.2.17"
+version = "1.2.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a556c1b456609b760ff47b933912f27563ea8a9a1692864cbc1014c02f5b981e"
+checksum = "035ee6a04f63c327d79d0e23905804c2c7d4d6693dfa5f5d4e1ec6c3b1d3c9bd"
 dependencies = [
  "assert_matches",
  "bincode",
@@ -1441,6 +1441,7 @@ dependencies = [
  "bv",
  "byteorder",
  "chrono",
+ "curve25519-dalek",
  "ed25519-dalek",
  "generic-array 0.14.3",
  "hex",
@@ -1468,9 +1469,9 @@ dependencies = [
 
 [[package]]
 name = "solana-sdk-macro"
-version = "1.2.17"
+version = "1.2.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "38bc386020de692562a29c0696a71c14a3d94455a9a785a97c7b254c38d6a2c8"
+checksum = "49176a2409267c318c58d99d86b8d304449378ad9e901ada2a44c964a92a21c9"
 dependencies = [
  "bs58",
  "proc-macro2 1.0.18",
