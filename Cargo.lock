@@ -266,6 +266,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "476e9cd489f9e121e02ffa6014a8ef220ecb15c05ed23fc34cca13925dc283fb"
 
 [[package]]
+name = "bs58"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "771fe0050b883fcc3ea2359b1a96bcfbc090b7116eae7c3c512c7a083fdf23d3"
+
+[[package]]
 name = "bumpalo"
 version = "3.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2651,7 +2657,7 @@ dependencies = [
  "Inflector",
  "base64 0.12.3",
  "bincode",
- "bs58",
+ "bs58 0.3.1",
  "bv",
  "lazy_static",
  "serde",
@@ -2788,7 +2794,7 @@ checksum = "b64a1b90e869c6da1ac5935d8823af3766a3b223f133cadc57bab98245c322ed"
 dependencies = [
  "base64 0.13.0",
  "bincode",
- "bs58",
+ "bs58 0.3.1",
  "clap",
  "indicatif",
  "jsonrpc-core",
@@ -2855,7 +2861,7 @@ version = "1.4.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1b4f473fdb966b501d1315ececb85cc702b8e67a16ea36811254c087dd1fc255"
 dependencies = [
- "bs58",
+ "bs58 0.3.1",
  "bv",
  "generic-array 0.14.3",
  "log",
@@ -2950,7 +2956,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5a3cced77240271e0e60067af57df1d345d002dec251cc4e257be364eaca9c56"
 dependencies = [
  "bincode",
- "bs58",
+ "bs58 0.3.1",
  "bv",
  "curve25519-dalek 2.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "hex",
@@ -3081,7 +3087,7 @@ checksum = "0b137c94925588c790864ffa39cd16f4b8de1d3ad6184c4583cc13344babd183"
 dependencies = [
  "assert_matches",
  "bincode",
- "bs58",
+ "bs58 0.3.1",
  "bv",
  "byteorder",
  "chrono",
@@ -3123,7 +3129,7 @@ version = "1.4.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c61aeaa0e48473d8ba532d2ad3560c23da8188e4515b847daac34ed07a1ae519"
 dependencies = [
- "bs58",
+ "bs58 0.3.1",
  "proc-macro2 1.0.24",
  "quote 1.0.7",
  "rustversion",
@@ -3176,7 +3182,7 @@ dependencies = [
  "Inflector",
  "base64 0.12.3",
  "bincode",
- "bs58",
+ "bs58 0.3.1",
  "lazy_static",
  "serde",
  "serde_derive",
@@ -3360,7 +3366,7 @@ dependencies = [
 name = "spl-stake-pool-cli"
 version = "2.0.1"
 dependencies = [
- "bs58",
+ "bs58 0.4.0",
  "clap",
  "serde_json",
  "solana-account-decoder",
