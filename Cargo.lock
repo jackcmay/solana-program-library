@@ -2890,9 +2890,9 @@ dependencies = [
 
 [[package]]
 name = "solana-logger"
-version = "1.4.8"
+version = "1.4.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6112928096e211172e85328cf5d3c35147cc2f242b284bbf23b581e87eea17d2"
+checksum = "bf46427828d729787552b4fa152b573dc49b138102a874b60029ee310de512e5"
 dependencies = [
  "env_logger",
  "lazy_static",
@@ -3322,7 +3322,7 @@ dependencies = [
 
 [[package]]
 name = "spl-feature-proposal"
-version = "1.0.0-pre1"
+version = "1.0.0-pre2"
 dependencies = [
  "borsh",
  "borsh-derive",
