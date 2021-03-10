@@ -17,7 +17,7 @@ solana-cli-config = "1.5.11"
 solana-client = "1.5.11"
 solana-logger = "1.5.11"
 solana-sdk = "1.5.11"
-solana-program = "1.5.11"
+solana-program = "1.5.14"
 spl-stake-pool = { path="../program", features = [ "no-entrypoint" ] }
 spl-token = { path="../../token/program", features = [ "no-entrypoint" ]  }
 bs58 = "0.4.0"
